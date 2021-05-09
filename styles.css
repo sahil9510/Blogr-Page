@@ -24,6 +24,9 @@ p{
   text-align: center;
   font-size: 2.8rem;
 }
+.images{
+  text-align: center;
+}
 /* Intro */
 #header{
   background-image: linear-gradient(to bottom right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
@@ -295,8 +298,7 @@ p{
 }
 .desk-img{
   display: inline-block;
-  position: relative;
-  right: 100%;
+
 
 }
 /* phone */
@@ -325,8 +327,7 @@ p{
 }
 .laptop-img{
   display: inline-block;
-  position: relative;
-  right: 100%;
+
 
 }
 
