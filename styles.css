@@ -296,7 +296,7 @@ p{
 .desk-img{
   display: inline-block;
   position: relative;
-  right: 70%;
+  right: 100%;
 
 }
 /* phone */
@@ -326,7 +326,7 @@ p{
 .laptop-img{
   display: inline-block;
   position: relative;
-  right: 70%;
+  right: 100%;
 
 }
 
