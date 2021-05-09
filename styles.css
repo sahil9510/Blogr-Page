@@ -1,0 +1,347 @@
+body{
+  color:#fff;
+  font-family: 'Overpass', sans-serif;
+  line-height: 1.7;
+}
+h1{
+  font-size: 4rem;
+  font-weight: 600;
+}
+h2,h3{
+  color: hsl(208, 49%, 24%);
+  font-weight: 600;
+
+
+}
+p{
+  color: hsl(207, 13%, 34%);
+  margin: 20px 0 80px 0;
+  padding-right:75px;
+}
+
+.headings{
+  margin: 0 0 5%;
+  text-align: center;
+  font-size: 2.8rem;
+}
+/* Intro */
+#header{
+  background-image: linear-gradient(to bottom right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  position: relative;
+  border-bottom-left-radius: 16%;
+}
+.main{
+  background-image: url("images/bg-pattern-intro.svg");
+  background-position: 25% 53%;
+
+
+}
+.intro{
+  text-align: center;
+  padding:5%;
+
+}
+.container-fluid{
+  padding:10px 70px 40px;;
+
+}
+
+
+
+/* navbar*/
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family:'Ubuntu', sans-serif;
+  font-size: 700;
+  padding-bottom: 2%;
+}
+.nav-link:hover{
+text-decoration: underline;
+}
+
+.nav-link{
+  color:#fff;
+}
+
+.dropdown-menu{
+  padding: 20% ;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dropdown-item:hover{
+  background-color: #fff;
+  font-weight: 700;
+
+}
+
+.drop-icon{
+  transform: rotate(1deg);
+}
+
+/* Buttons */
+.btn{
+  border-radius: 20px;
+  width: 9%;
+  padding: 8px 0 5px;
+  margin: 8px 2px ;
+  font-weight: 600;
+}
+
+.intro .btn{
+  width: 150px;
+  padding: 10px 0;
+  margin: 5% 10px;
+  border-color: #fff;
+}
+
+.btn-type-1{
+  color:#fff;
+
+}
+.nav-link:hover{
+  color:#fff;
+}
+.nav-link:active{
+  color:#fff
+}
+
+.btn-type-1:hover{
+  background-color: #fff;
+  color:hsl(356, 100%, 66%)
+}
+
+.btn-type-2{
+
+  background-color: #fff;
+  color:hsl(356, 100%, 66%);
+}
+
+.btn-type-2:hover{
+  border-color: hsl(355, 100%, 74%);
+  background-color: hsl(355, 100%, 74%);
+  color: #fff;
+}
+.dropdown-divider{
+
+  display: none;
+}
+
+/* Desk */
+
+#desk{
+  padding: 8% 10% 15% ;
+  background-image: url("images/illustration-editor-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 140% 100%;
+}
+
+.desk-img{
+  display: none;
+}
+
+
+/* Phone */
+
+#phone{
+  background-image: url("images/bg-pattern-circles.svg"),linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: -40% 85%;
+  border-bottom-left-radius: 20%;
+  border-top-right-radius: 20%;
+  color:#fff;
+
+}
+
+
+.col-lg-8{
+  padding-top: 120px;
+  padding-left: 15%;
+  padding-right: 0;
+}
+
+.col-lg-8 .headings, .col-lg-8 p {
+  display: inline-block;
+  text-align: left;
+  color: hsl(0, 0%, 100%);
+
+}
+#phone .row{
+  width:100%;
+}
+.phone-img{
+  position: absolute;
+  top: -80px;
+  left:100px;
+}
+
+
+/* Laptop */
+
+#laptop{
+  padding: 20% 10%;
+  background-image: url("images/illustration-laptop-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: -50% ;
+}
+
+.laptop-img{
+  display: none;
+}
+/* Footer */
+
+#footer{
+  background-color: hsl(240, 10%, 16%);
+  padding: 2%;
+  border-top-right-radius: 16%;
+}
+#footer h6{
+  padding-top: 20%;
+  font-weight: 700;
+}
+
+.col-lg-2 p{
+  color:hsl(240, 2%, 79%);
+  margin: 10% 0;
+}
+
+
+
+/* Responsive behavious */
+@media only screen and (max-width: 980px) {
+
+body{
+  text-align: center;
+}
+
+
+/* Navbar */
+.navbar-toggler{
+  color:#fff;
+}
+.nav-link, .btn-type-1#login  {
+  color:#000;
+
+}
+
+.collapse{
+width: 20%;
+padding: 10% 0;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background-color: #fff;
+}
+
+.dropdown-menu{
+  background-color:#fff;
+  margin: 2% 8% 0;
+  text-align: center;
+  padding: 5% 20%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.nav-link{
+  margin: 2%;
+  font-family: "Ubuntu";
+}
+.nav-link:hover{
+text-decoration: underline;
+color:#000;
+}
+
+
+/* Buttons */
+
+
+nav .btn{
+  width: 30%;
+  margin: 2% 20% ;
+}
+
+nav .btn:hover{
+  border-color: hsl(355, 100%, 74%);
+}
+
+.dropdown-divider{
+  border-color: #000;
+  margin: 8% 15%;
+  display: block;
+}
+
+
+/* intro */
+#header{
+  border-bottom-left-radius: 30%;
+}
+.main{
+  background-size: 250%;
+  background-position: 30% 58%;
+}
+.container-fluid{
+  padding: 20px 20px 120px;
+}
+.intro{
+  padding: 0;
+}
+h1{
+  font-size: 3.5rem;
+  margin-bottom: 50px;
+}
+p{
+  padding: 0;
+}
+/* desk */
+#desk{
+  background-image: none;
+  padding: 10% 20%;
+}
+.desk-img{
+  display: inline-block;
+
+
+}
+/* phone */
+#phone{
+  margin-top: 120px;
+  background-position: 50% 120%;
+}
+.col-lg-8{
+  padding: 50% 10% 0;
+}
+.phone-img{
+  position: absolute;
+  top: -260px;
+  left: 5%;
+  width:90%;
+}
+.col-lg-8 .headings, .col-lg-8 p{
+  text-align: center;
+}
+
+/* laptop */
+
+#laptop{
+  padding-top: 10%;
+  background-image: none;
+}
+.laptop-img{
+  display: inline-block;
+  position: relative;
+
+}
+
+/* footer */
+#footer{
+  padding-top:10%;
+  font-size: 1.3rem;
+}
+#footer h6{
+  padding-top: 10%;
+  font-weight: 700;
+}
+
+.col-lg-2 p{
+  color:hsl(240, 2%, 79%);
+  margin: 10px;
+
+
+}
+}
