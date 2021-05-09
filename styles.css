@@ -295,7 +295,8 @@ p{
 }
 .desk-img{
   display: inline-block;
-
+  position: relative;
+  left: -15%;
 
 }
 /* phone */
@@ -308,7 +309,7 @@ p{
 }
 .phone-img{
   position: absolute;
-  top: -260px;
+  top: -200px;
   left: 5%;
   width:90%;
 }
@@ -325,6 +326,7 @@ p{
 .laptop-img{
   display: inline-block;
   position: relative;
+  left: -15%;
 
 }
 
